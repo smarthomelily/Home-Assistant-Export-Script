@@ -8,15 +8,13 @@
 ################################################################################
 # Anleitung
 ################################################################################
-# "Advanced SSH & Web Terminal" öffnen und folgendes eintippen
-# 0. "HIER_DEIN_TOKEN_EINFUEGEN" in Zeile 47 ersetzen
-# 1. nano /homeassistant/export_ha.sh
-#    Erstelle neu mit nano / test eintragen und mit "strg+x" schließen und speichern 
-# "File editor" öffnen und Inhalt in die "export_ha.sh" einfügen inkl Token und speichern. 
-# "Advanced SSH & Web Terminal" öffnen und folgendes eintippen
-# 2. chmod +x /homeassistant/export_ha.sh
-# 3. sed -i 's/\r$//' /homeassistant/export_ha.sh
-# 4. /homeassistant/export_ha.sh
+# 1. "Advanced SSH & Web Terminal" 
+#     nano /homeassistant/export_ha.sh
+#        Erstellen &  "strg+x" schließen und speichern 
+# 2. "File editor" öffnen und Inhalt in die "export_ha.sh" einfügen inkl Token und speichern. 
+#                "HIER_DEIN_TOKEN_EINFUEGEN" in Zeile 47 ersetzen
+# 3. "Advanced SSH & Web Terminal" 
+#    chmod +x /homeassistant/export_ha.sh && /homeassistant/export_ha.sh
 ################################################################################
 
 # Script Version

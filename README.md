@@ -6,11 +6,8 @@
 
 ```bash
 # 1. Script hochladen nach /homeassistant/export_ha.sh
-# 2. Ausführbar machen
-chmod +x /homeassistant/export_ha.sh
-
-# 3. Script ausführen (korrigiert sich selbst beim ersten Mal!)
-/homeassistant/export_ha.sh
+# 2. Ausführbar machen und ausführen 
+chmod +x /homeassistant/export_ha.sh && /homeassistant/export_ha.sh
 ```
 
 **Vor dem ersten Start:** Token in der Datei eintragen!

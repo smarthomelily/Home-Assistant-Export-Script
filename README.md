@@ -93,8 +93,6 @@ chmod +x /homeassistant/export_ha.sh && /homeassistant/export_ha.sh
 
 ## 💡 Installation
 
-**Siehe [INSTALLATION.md](INSTALLATION.md) für Details!**
-
 Kurz:
 ```bash
 # 1. Upload nach /homeassistant/export_ha.sh
